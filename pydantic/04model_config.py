@@ -1,4 +1,5 @@
 # 这个Config配置类其实是修改BaseModel的默认行为的，也可以用来扩充功能
+# 更多配置选项：https://pydantic-docs.helpmanual.io/usage/model_config/#options
 from pydantic import BaseModel, ValidationError
 from typing import Union
 

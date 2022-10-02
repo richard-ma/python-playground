@@ -10,3 +10,4 @@ async def root():
 
 # run app
 # uvicorn fistapp:app --reload
+# http://localhost:8000

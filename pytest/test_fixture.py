@@ -85,3 +85,9 @@ def test_int(new_order):
     new_order.append(2)
 
     assert new_order == ["a", 2]
+
+# @pytest.fixture
+# def f():
+#   fp = open(filename) # open file SETUP
+#   yield fp
+#   fp.close() close file TEAR DPWM
